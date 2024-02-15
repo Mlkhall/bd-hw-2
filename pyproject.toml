@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bd-hw-2"
+version = "0.1.0"
+description = ""
+authors = ["Чумаков Михаил Дмитриевич <mikhail.chumakov@sbermarket.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.1.0"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+psycopg2 = "^2.9.9"
+sqlalchemy = "^2.0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
